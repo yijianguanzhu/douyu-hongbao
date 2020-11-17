@@ -5,8 +5,8 @@
 
 #### ![下载](https://www.easyicon.net/api/resizeApi.php?id=1225445&size=24) 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzous.com/ikyolihcymd)
-2. 百度网盘：[下载](https://pan.baidu.com/s/1Nj5GrUrsHWju9W7MGWxX7w "提取码: yrxv")
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzous.com/i42e7ihokze)
+2. 百度网盘：[下载](https://pan.baidu.com/s/1m9Y_7S5ukwDj95ftBYBqGQ "提取码: jdjy")
 
 #### ![安装教程](https://www.easyicon.net/api/resizeApi.php?id=1211336&size=24) 安装方式
 
