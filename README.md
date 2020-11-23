@@ -3,10 +3,19 @@
 #### 介绍
 斗鱼自动抢礼物红包工具<img src="https://images.gitee.com/uploads/images/2020/1116/165713_916299e5_2268103.png" width = "24" height = "24"/>
 
+#### ![更新v1.1](https://www.easyicon.net/api/resizeApi.php?id=1143807&size=24) v1.1更新信息
+1. 优化同一个房间短时间（20秒）内有多个红包的情况下，执行多次关注取关操作问题。
+
+	- v1.0版本中，如果每20秒（内）左右有一个红包（同一房间），假设一分钟内有5个红包，那么最终导致可抢红包可能只有两个。 这是由于延迟取关机制引发的问题。该问题导致抢最后三个红包（假设）时，关注主播的条件已经被前两个红包线程取关了，而后三个红包线程无法感知，导致无法正确抢到红包。
+
+2. 当获得到办卡（开启小礼物自动赠送），飞机（开启大礼物自动赠送）时，且粉丝牌没有满，则直接加入到粉丝团列表中。
+	
+	- 有些房间会在发出【关注主播】的红包后，继而发出【关注+粉丝团】的红包，这次更新让在第一个红包中抢到办卡及以上的同学，能够在第一时间内快速获得满足下一个红包的参与条件。【v1.0版本中，需要等五分钟更新一次粉丝徽章，有时会错过红包】
+
 #### ![下载](https://www.easyicon.net/api/resizeApi.php?id=1225445&size=24) 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzous.com/i42e7ihokze)
-2. 百度网盘：[下载](https://pan.baidu.com/s/1m9Y_7S5ukwDj95ftBYBqGQ "提取码: jdjy")
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzous.com/isYQrim0zuf)
+2. 百度网盘：[下载](https://pan.baidu.com/s/1gi_auk-mGf8Ep5qw2N1qWQ "提取码: f2mg")
 
 #### ![安装教程](https://www.easyicon.net/api/resizeApi.php?id=1211336&size=24) 安装方式
 
