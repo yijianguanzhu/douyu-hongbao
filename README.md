@@ -5,7 +5,7 @@
 
 #### ![下载](https://www.easyicon.net/api/resizeApi.php?id=1225445&size=24) 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzous.com/ifkYpkhttid)
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzoui.com/ifkYpkhttid)
 2. 百度网盘：[下载](https://pan.baidu.com/s/1QhztHiDZxhP78ncp8VFxmQ "提取码: uc21")
 
 #### ![更新v1.2](https://www.easyicon.net/api/resizeApi.php?id=1143807&size=24) v1.2更新信息
