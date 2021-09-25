@@ -3,25 +3,34 @@
 #### 介绍
 斗鱼自动抢礼物红包工具<img src="https://images.gitee.com/uploads/images/2020/1116/165713_916299e5_2268103.png" width = "24" height = "24"/>
 
-#### ![下载](https://www.easyicon.net/api/resizeApi.php?id=1225445&size=24) 下载
+#### 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzoui.com/ifkYpkhttid)
-2. 百度网盘：[下载](https://pan.baidu.com/s/1QhztHiDZxhP78ncp8VFxmQ "提取码: uc21")
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzoui.com/i72e4uh5gsb)
+2. 百度网盘：[下载](https://pan.baidu.com/s/1xEwF5Lu5bNiJgty-MLgKCA "提取码: 9iy6")
 
-#### ![更新v1.2](https://www.easyicon.net/api/resizeApi.php?id=1143807&size=24) v1.2更新信息
+#### v1.3更新信息
+1. 增加自动删除粉丝牌功能，详见[自定义配置](#custom)
+    - 程序启动会先保存已有的粉丝牌，以免误删。
+    - 新得到的粉丝牌，删除策略根据账号7天内是否赠送过价值礼物和其他免费礼物结算，如7天内没有赠出过其他道具，粉丝牌将会删除，如7天内赠出过其他道具，粉丝牌将会保留。
+    - 其他道具包含价值礼物和其他免费礼物，不包含礼物红包的礼物。
+2. 增加每日自动领取荧光棒、周日自动赠送荧光棒功能，详见[自定义配置](#custom)
+	- 荧光棒为均衡赠送策略，假设本周共400个荧光棒，如设置了三个直播间，第一个直播间赠出134个，第二个直播间赠出133个，第三个直播间赠出133个；如设置了两个直播间，第一个直播间赠出200个，第二个直播间赠出200个；如设置了一个直播间，就将荧光棒全部赠送给这个直播间。
+	- 房间号为实际房间号，不可设置靓号/vip房间号，否则荧光棒可能无法领取或赠出。
+
+#### v1.2更新信息
 1. 修复BUG。
 2. 修复礼物码错误导致无法自动赠送火箭问题。
 3. 优化关注取关机制，保证同一个房间在可见的红包雨情况下，不再重复关注取关。
 
 	- 此次改善能够降低斗鱼风险用户侦测系统对账号的风险评估
 
-#### ![更新v1.1.2](https://www.easyicon.net/api/resizeApi.php?id=1143807&size=24) v1.1.2更新信息
+#### v1.1.2更新信息
 1. 新增拾起红包功能。
 
 	- 当满足粉丝团参与条件时，会重新拾起被丢弃的红包，仅限于非立即开启的红包。 
 2. 修复抢红包时，用户登录信息过期导致的循环BUG。
 
-#### ![更新v1.1](https://www.easyicon.net/api/resizeApi.php?id=1143807&size=24) v1.1更新信息
+#### v1.1更新信息
 1. 优化同一个房间短时间（20秒）内有多个红包的情况下，执行多次关注取关操作问题。
 
 	- v1.0版本中，如果每20秒（内）左右有一个红包（同一房间），假设一分钟内有5个红包，那么最终导致可抢红包可能只有两个。 这是由于延迟取关机制引发的问题。该问题导致抢最后三个红包（假设）时，关注主播的条件已经被前两个红包线程取关了，而后三个红包线程无法感知，导致无法正确抢到红包。
@@ -30,18 +39,18 @@
 	
 	- 有些房间会在发出【关注主播】的红包后，继而发出【关注+粉丝团】的红包，这次更新让在第一个红包中抢到办卡及以上的同学，能够在第一时间内快速获得满足下一个红包的参与条件。【v1.0版本中，需要等五分钟更新一次粉丝徽章，有时会错过红包】
 
-#### ![初版v1.0](https://www.easyicon.net/api/resizeApi.php?id=1143807&size=24) v1.0初版
+#### v1.0初版
 1. 支持斗鱼app扫码登录，登录认证信息过期自动续期。
 2. 自动监控红包，默认十秒监测一次。
 3. 自动关注，自动取关，自动抢红包，自动赠送礼物。
 4. 支持自定义参数配置，详见[自定义配置](#custom)
-5. 新号或等级太低的小号容易抢不到红包，充值就可解决。
+5. 新号或等级太低的小号容易抢不到红包，充值就可解决或将账号升级到15级以后再使用。
 
-#### ![安装教程](https://www.easyicon.net/api/resizeApi.php?id=1211336&size=24) 安装方式
+#### 安装方式
 
 1. 与正常程序安装方法一致，根据提示操作即可
 
-#### ![说明](https://www.easyicon.net/api/resizeApi.php?id=1215091&size=24) 使用说明
+#### 使用说明
     本程序属于绿色软件，不包含任何破坏计算机系统程序。
 
 1. 注意事项：<font color=red>安装路径不能包含中文名，否则无法启动</font>
@@ -49,30 +58,40 @@
 
 ![启动程序](https://images.gitee.com/uploads/images/2020/1117/133300_4cdb1d85_7859954.png "启动程序")
 ![扫描二维码](https://images.gitee.com/uploads/images/2020/1117/133423_493a7593_7859954.png "扫描二维码")
-3. core目录核心配置文件，logs目录下存放每日运行日志文件，cookie.txt账号信息，hongbao.log文件只单独记录礼物赠送信息
+3. core目录核心配置文件，logs目录下存放每日运行日志文件，barrage.log文件记录荧光棒领取信息，clear_fans_card.log文件记录删除粉丝牌信息，cookie.txt账号信息，hongbao.log文件只单独记录礼物赠送信息
 
-![新生成配置](https://images.gitee.com/uploads/images/2020/1117/135119_c9f3acca_7859954.png "新生成文件")
+![新生成配置](https://images.gitee.com/uploads/images/2021/0925/131613_e5769a03_7859954.png "新生成文件")
 4. 运行日志展示：强悍的抢红包速度，速度快的30~40ms一次请求（1H2G的服务器），cookie过期自动续期。
 
 ![运行日志](https://images.gitee.com/uploads/images/2020/1117/135626_f2375e9b_7859954.png "运行日志")
 5. 礼物赠送日志展示
 
 ![赠送日志](https://images.gitee.com/uploads/images/2020/1117/140106_344dfbce_7859954.png "赠送日志")
+6. 删除粉丝牌日志展示
 
-#### ![配置](https://www.easyicon.net/api/resizeApi.php?id=1183257&size=24) 自定义配置 <a name="custom"></a>
+![删除粉丝牌日志](https://images.gitee.com/uploads/images/2021/0925/132207_e4a7ff34_7859954.png "删除粉丝牌日志")
+7. 领取荧光棒日志展示 
+
+![领取荧光棒日志](https://images.gitee.com/uploads/images/2021/0925/132325_c95106d3_7859954.png "领取荧光棒日志")
+#### 自定义配置 <a name="custom"></a>
     在/core/config.ini文件中，可自定义特定参数（首次运行会自动生成）:
         [monitor-thread]
           # 每隔多少秒检测一次红包（默认：10秒）
-		  period=10
-		[handler-thread]
-		  # 抢红包线程启动偏移量，取值范围：[-2.00,2.00]（单位秒）（保留两位小数）（默认：0）
-		  leftshift=0
-		[broker-thread]
-		  # 小礼物是否自动赠送（大气、666和办卡）（默认：true）
-		  small=true
+          period=10
+        [handler-thread]
+          # 抢红包线程启动偏移量，取值范围：[-2.00,2.00]（单位秒）（保留两位小数）（默认：0）
+          leftshift=0
+        [broker-thread]
+          # 小礼物是否自动赠送（大气、666和办卡）（默认：true）
+          small=true
           # 大礼物是否自动赠送（飞机、火箭）（默认：false）
-		  precious=false
-
-#### ![交流](https://www.easyicon.net/api/resizeApi.php?id=550214&size=24) 交流
+          precious=false
+        [fans-card-thread]
+          # 是否开启删除粉丝牌功能（默认：true）
+          clear=true
+        [barrage-thread]
+          # 每周日自动赠送荧光棒的直播间，多个使用英文半角","分隔，如1111,2222 （无默认值）
+          roomId=
+#### 交流
 
 1. QQ群 250097154
