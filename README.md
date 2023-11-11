@@ -5,7 +5,7 @@
 
 #### 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/iipbh1ekm3kb)
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/iqkAm1el03mh)
 
 #### 2.0更新信息
 1. 版本换新，初步提供可视化操作界面。
