@@ -5,7 +5,32 @@
 
 #### 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/ig0b70ad9bnc)
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/iipbh1ekm3kb)
+
+#### 2.0更新信息
+1. 版本换新，初步提供可视化操作界面。
+	- 2.0使用示例
+		- 启动程序
+		![启动程序](https://foruda.gitee.com/images/1699716441608073124/728da954_7859954.png "启动程序")
+		- 扫描二维码
+		![扫描二维码](https://foruda.gitee.com/images/1699716522310976289/41c8cdae_7859954.png "扫描二维码")
+		- 成功登录账号
+		![登录成功](https://foruda.gitee.com/images/1699718611373545829/f3e7fbe7_7859954.png "登录成功")
+		- 查看站内信
+		![查看站内信](https://foruda.gitee.com/images/1699716978516316976/f2ccb61c_7859954.png "查看站内信")
+		- 账号设置
+		![账号设置](https://foruda.gitee.com/images/1699717320759365979/4742fdde_7859954.png "账号设置")
+		- 关于
+		![关于](https://foruda.gitee.com/images/1699717390539039232/fc0d8924_7859954.png "关于")	
+		- 选择账号
+		![选择账号](https://foruda.gitee.com/images/1699718069843642937/4ad9a9c2_7859954.png "选择账号")
+		![选择账号](https://foruda.gitee.com/images/1699718226175882203/f4210f05_7859954.png "选择账号")				
+	- 新功能
+		- 账号设置增加了【指定抽奖直播间】属性，设置后，如果抽奖直播间符合设置的房号，将直接参与抽奖，不受其他抽奖属性限制。（注：同其他属性一样，多个房号用英文半角","分隔）
+		- 新增每日任务自动领取功能，只领取奖励，不自动做任务。
+
+---
+	
 
 #### v1.4更新信息
 1. 增加挂机直播间功能（可做斗鱼看直播的活动），详见[自定义配置](#custom)
