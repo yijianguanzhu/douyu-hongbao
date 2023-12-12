@@ -5,7 +5,10 @@
 
 #### 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/iqkAm1el03mh)
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/if1gB1hntvgd)
+
+#### 2.0.1更新信息
+1. 修复近期斗鱼服务器TLS疑因版本回溯导致无法使用问题
 
 #### 2.0更新信息
 1. 版本换新，初步提供可视化操作界面。
@@ -32,7 +35,10 @@
 ---
 #### 下载
 
-1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/ijq1h1emze4b)	
+1. 蓝奏云地址：[下载](https://yijianguanzhu.lanzout.com/isqOH1hnuqwf)	
+
+#### 1.5.1更新信息
+1. 修复近期斗鱼服务器TLS疑因版本回溯导致无法使用问题
 
 #### 1.5更新信息
 1. 常规更新
